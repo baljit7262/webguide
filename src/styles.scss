@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: #e9eaef;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.bgcolor{
+    background-color: #2f215e;
+}
+.navbar-brand,.form-inline{
+    color: white!important;
+}
+nav{
+    margin-bottom: 30px;
+    .form-inline{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        color: white;
+        .time{
+            border-right: 1px solid white;
+            padding-right: 7px;
+            margin-right: 7px;
+        }
+    }
+    .material-icons {
+        font-size: 22px!important;
+    }
+    .navbar-brand{
+        font-size: 25px!important;
+    }
+}
+.cards{
+    .material-icons {
+        font-size: 30px!important;
+        color: white!important;
+    }
+    .header {
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .sub-header {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+.mdc-card.info-card {
+    position: relative;
+    padding: 17px 25px;
+    background-color: white;
+}
+
+.stretch-card .mdc-card {
+    width: 100%;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+.mdc-card.info-card .card-inner {
+    margin-right: 25%;
+}
+.mdc-card.info-card .card-inner .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+ .bg1 {
+    background-color: #00b67a;
+    box-shadow: 0 0 10px 5px rgba(0, 182, 122, 0.35);
+}
+.bg2 {
+    background-color: #ff420f;
+    box-shadow: 0 0 10px 5px rgba(255, 66, 15, 0.35);
+}
+.bg3 {
+    background-color: #7a00ff;
+    box-shadow: 0 0 10px 5px rgba(122, 0, 255, 0.35);
+}
+.bg4 {
+    background-color: #00bbdd;
+    box-shadow: 0 0 10px 5px rgba(0, 187, 221, 0.35);
+}
+
+
+.mdc-card.info-card .card-inner .card-icon-wrapper i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.mdc-card.info-card .card-inner .card-icon-wrapper {
+    position: absolute;
+    right: -10px;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 57px;
+    height: 57px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}.detail{
+    display: flex;
+    width: 100%;
+    .name{
+        width: 90%;
+    }
+}
+
+ .mat-table {
+    width: 100%;
+}
+.mat-header-cell {
+    color: rgb(0 0 0 / 87%)!important;
+    font-size: 14px!important;
+}
+.tabel-header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    .titel{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .material-icons{
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+    cursor: pointer;
+    &:hover {
+        color: gray;
+    }
+}
+}
