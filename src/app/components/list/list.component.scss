@@ -1,13 +1,12 @@
-.image-div{
-    margin-bottom: 20px;
-    margin-top: 20px;
+.dashboard-img {
+    width: 730px;
 }
-.screenshot{
-    width: 58%;
-    border: 1px solid #555;
+.line{
+    width: 70px;
+hr {
+    margin-top: 12px;
+    border-top: none;
+    border-bottom: 2px solid orange;
+    text-align: left;
 }
-.list-box{
-    background-image: linear-gradient(to right, #2e205d , #f1f1f400);
-    color: white;
-    padding: 12px;
 }

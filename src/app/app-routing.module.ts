@@ -21,7 +21,25 @@ export const routes: Routes = [
       import("./components/dashboard/_module").then((m) => m.DashboardModule),
   },
   {
-    path: "listComponents",
+    path: "inventory",
+    component: MasterComponent,
+    loadChildren: () =>
+    import("./components/inventory/_module").then((m) => m.InventoryModule),
+  },
+  {
+    path: "provider",
+    component: MasterComponent,
+    loadChildren: () =>
+    import("./components/providers/_module").then((m) => m.ProviderModule),
+  },
+  {
+    path: "location",
+    component: MasterComponent,
+    loadChildren: () =>
+    import("./components/location/_module").then((m) => m.LocationModule),
+  },
+  {
+    path: "list",
     component: MasterComponent,
     loadChildren: () =>
       import("./components/list/_module").then((m) => m.ListModule),
