@@ -1,24 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { SampleComponent } from './sample.component';
 import {MatTableModule} from '@angular/material/table';
+import { PatientComponent } from './patient.component';
 
 @NgModule({
   declarations: [
-    SampleComponent,
+    PatientComponent,
   ],
 
   imports: [
     CommonModule,
     MatTableModule,
     RouterModule.forChild([
-      { path: '', component: SampleComponent }
+      { path: '', component: PatientComponent }
     ])
   ],
-  entryComponents: [],
 
 })
-export class SampleModule {
+export class PatientModule {
 
 }
