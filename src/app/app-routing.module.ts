@@ -69,6 +69,36 @@ export const routes: Routes = [
       import("./components/patient/_module").then((m) => m.PatientModule),
   },
   {
+    path: "sample-storage",
+    component: MasterComponent,
+    loadChildren: () =>
+      import("./components/sample-storage/_module").then((m) => m.SamplestorageModule),
+  },
+  {
+    path: "Controls",
+    component: MasterComponent,
+    loadChildren: () =>
+      import("./components/controls/_module").then((m) => m.ControlModule),
+  },
+  {
+    path: "test",
+    component: MasterComponent,
+    loadChildren: () =>
+      import("./components/test/_module").then((m) => m.TestModule),
+  },
+  {
+    path: "batch-profile",
+    component: MasterComponent,
+    loadChildren: () =>
+      import("./components/batch-profile/_module").then((m) => m.BatchprofileModule),
+  },
+  {
+    path: "Targets",
+    component: MasterComponent,
+    loadChildren: () =>
+      import("./components/target/_module").then((m) => m.TargetModule),
+  },
+  {
     path: "report",
     component: MasterComponent,
     loadChildren: () =>
