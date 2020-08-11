@@ -11,6 +11,7 @@ import { CustomHttpClient, CompanyService, StorageService, GlobalsX} from './ser
 import { MasterComponent } from './layout/master/master.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
+
 @NgModule({
   declarations: [
     AppComponent,
